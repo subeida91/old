@@ -1,0 +1,61 @@
+.section_body__container{
+    margin: 0 auto;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .02em;
+    text-transform: none;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 15%;
+
+}
+
+.page__title{
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 34px;
+
+
+}
+
+.section__heading{
+    line-height: 30px;
+    font-size: 24px
+}
+
+.main__text{
+    
+
+    
+}
+
+.quote{
+    font-style: italic;
+    weight: bold;
+    color: #457b9d;
+    font-size: 22px;
+
+}
+
+.subheading{
+    text-align: center;
+}
+
+.ordered__list{
+    margin-left: 5%
+}
+
+.section__image{
+    width: 100%
+}
+
+.section__image_wireframes{
+    width: 50%;
+    length: 50%;
+}
+
+.empathy__map{
+    width: 50%;
+}

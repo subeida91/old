@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content ="width=device-width", initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Subeida Portfolio </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="queries.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Lora&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.png"/>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="navigation">
+                <input type="checkbox" name="" id="check">
+                
+                <div class="logo-container">
+                    <a href="index.html"><h3 class="logo">Subeida</h3></a>
+                </div>
+    
+                <div class="nav-btn">
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-link" style="--i: .6s">
+                                <a href="about.html">About</a>
+                            </li>
+                            <li class="nav-link" style="--i: .85s">
+                                <a href="#">UX-UI Design<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="microsoft.html">Microsoft Internship</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="evaluating.html">
+                                                World's Biggest Coffee Morning</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="accessibility.html">Accessibility Audit of ASDA's Grocery Website</a>
+                                       
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="Information.html">Designing a User Friendly Plant Shop Website</a>
+                                        </li>
+                                    
+                                        <li class="dropdown-link">
+                                            <a href="interactiondesign.html">Interaction Design of Community Bee Table</a>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-link" style="--i: .85s">
+                                <a href="#">Front-end<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="https://subeida91.github.io/movie_compare/" target="_blank" >Film comparison</a>
+                                        </li>
+                                      <li class="dropdown-link">
+                                            <a href="https://subeida91.github.io/timer/" target="_blank">Timer</a>
+                                        </li>
+                                         <!-- 
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 3</a>
+                                       
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 4</a>
+                                        </li>-->
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+          
+                </div>
+    
+                <div class="hamburger-menu-container">
+                    <div class="hamburger-menu">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="section_body__container">
+        <h1 class="page__title">Designing and prototyping an interactive table called Habitable</h1>
+
+        <h3>We designed Habitable as an interactive knowledge hub to connect beekeepers and the general public through a shared interest in making a better habitat for bees. Based on the results of our evaluation, we think that Habitable can offer a fun and easy­ to ­use environment for users to learn and share data about bee forage.</h3><br>
+
+        <h3>London Beekeepers' Association</h3><br>
+        <p class="main__text">
+            London Beekeepers’ Association is a charity made up of 300 volunteers from across London. Their mission is to educate members of the public on best practices of beekeeping. They communicate via a Facebook page and a WhatsApp group where they share advice and discuss how they can raise awareness for their cause.
+        </p><br>
+
+        <h3>Pain point</h3><br>
+        <p class="main__text">
+            Contrary to popular belief, it is not bees in London that are in decline but the habitat needed to provide forage for them.  The decreasing lack of quality forage in the city is threatening the bee population and therefore also the sustainability of beekeeping in London.
+            The LBKA want to collaborate with the general public and those that manage green spaces to form a network of allies to help support the bees.
+        </p><br>
+
+        <h2>Process</h2><br>
+
+        <h3 class="">(1) User research </h3><br>
+
+        <p class="main__text">
+            To align our understanding of the LBKA current practices and activities we used observation and interviews. From these techniques, we found that there was a disconnect between the public and the beekeepers. This was important because their major goal was to raise awareness of the well-being of bees. We used this insight to create an empathy map so that we could have a vivid image of the community we are designing for. We also built a persona to give a description of a typical LBKA member and someone from the general public who might use the technology.
+ </p><br>
+
+ <p>Empathy map of London beekeepers</p>
+ <img class="section__image empathy__map" src="img/London Beekeepers' Association empathy map.png" alt="Empathy map of London beekeepers."><br><br>
+
+ <p>Persona of London beekeepers' association</p>
+ <img class="section__image" src="img/persona__alex.png" alt="persona of London beekeepers."><br><br>
+
+ <p>Persona of general public</p>
+ <img class="section__image" src="img/persona__george.png" alt="persona of general public"><br><br>
+ <p>London Beekeepers existing user journey</p>
+<img class="section__image" src="img/LBKA existing user journey.png" alt="existing user journey for london beekeepers association."><br>
+
+ <h3 class="">(2) Conceptual design </h3><br>
+
+ <p class="main__text">
+    We implemented the research by sketching many different approaches to the technology we are designing. We agreed that we would use an interactive table with an interface so that we could allow multiple people to use the technology at the same time and thus increase community bonding. We used both our conceptual designs and our user research to help us to define the future user journeys. This helped us visualize what we wanted our technology to achieve and how it would be utilized by our personas.
+</p><br>
+<p>London Beekeepers' association existing user journey</p>
+<img class="section__image" src="img/Future user journey.png" alt="Future journey"><br><br>
+
+<h3 class="">(3) Detailed design</h3><br>
+<p class="main__text">
+    We created a paper prototype to represent the layout of the key screens and functionalities and also so that we could also test the screen with users. The tasks the system allows users to complete are simple and easy to do because from our interviews with the LBKA, they told us that the public would not do tasks which are too complex.
+</p><br>
+<p>Prototype of the HabiTable</p>
+<img class="section__image" src="img/interaction__wireframe1.png" alt="design for the habitable"><br><br>
+<img class="section__image" src="img/interaction__wireframe2.png" alt="design for the habitable"><br><br>
+<img class="section__image" src="img/interaction__wireframe3.png" alt="design for the habitable"><br><br>
+<img class="section__image" src="img/interaction__wireframe4.png" alt="design for the habitable"><br><br>
+
+<h3 class="">(4) Evaluation </h3><br>
+<p class="main__text">
+    The objective of the evaluation was to gain insight into the usability and the user satisfaction of the prototype. Five participants were chosen for the usability test as our system was not big or complex. Therefore this number would be sufficient in bringing any usability issues to the surface. During the usability tests, participants were encouraged to use the think-aloud protocol by vocalising their thought process and responses as they performed tasks.
+</p><br>
+   
+    </section>    
+
+    <footer class="footer">
+        <p class="footer__copyright">Copyright 2020 © Subeida Ahmed. Built with HTML, CSS and Javascript.
+    </footer>
+
+</body>

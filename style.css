@@ -1,0 +1,166 @@
+@import "footer.css";
+@import "navigation.css";
+@import "sections.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:visited, a:hover{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lato', serif;
+    font-size: 16px;    
+    line-height: 20px;
+    min-height: 100%;
+    font-weight: 400;
+}   
+
+
+.hero__textbox{
+    background: #1d3557;
+    height: 50vh;
+    width: 100vw;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+
+.introduction{
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    align-self: start;
+    text-align: left;
+    font-size: 46px;
+}
+
+.introduction__paragraph{
+    width: 50%;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+
+ .button {
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    background-color: white;
+    border: 0;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;  
+    color: black;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;    
+}
+
+button:hover{
+    background-color: #E07A5F;
+    color: white;
+    border: 0px;
+    transform: scale(1.05);
+}
+
+.container__background{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.portfolio__section{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;    
+}
+
+.main__section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.row{
+    max-width: 400px;
+    margin-top: 20px;
+    justify-items: center;
+    text-align: left;
+    transition: all 150ms ease-in-out;
+}
+
+.row:hover{
+    transform: scale(1.05)
+}
+
+.projects__title{
+    padding-top: 60px;
+}
+
+.project-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+.project-photo img{
+    max-width: 100%;
+}
+
+.link__title{
+    text-decoration: none;  
+    color: black;
+    
+}
+.project__title{
+    margin-top: 1%;
+    line-height: 28px;
+}
+
+.project__description{
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+.learn__more{
+    text-decoration: none;
+    color: black;
+    display: inline-block
+}
+
+
+.arrow-right:after {
+    content: "";
+    display: inline-block !important;
+    width: 0;
+    height: 0;
+    border-left: 8px solid black;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    vertical-align: middle;
+}
+  
+  .arrow-right:before {
+    width: 10px;
+    height: 2px;
+    background: black;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+

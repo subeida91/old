@@ -1,0 +1,10 @@
+footer{
+    background-color: #3d405b;
+    height: 170px;
+    padding: 50px 0;
+}
+.footer__copyright{
+    color: white;
+    margin-left: 60px;
+    padding-top: 20px;   
+}
